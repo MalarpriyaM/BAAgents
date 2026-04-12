@@ -1,12 +1,8 @@
 # BAAgents
 
 ## Project Description
-BAAgents is a cutting-edge software project designed to facilitate intelligent agent-based systems for various applications. Our main objective is to provide a flexible architecture that enables the development and deployment of agents in a variety of environments and scenarios.
+BAAgents is the repo to enable the BA Agent challenge session, collect agents from global BAs, and evaluate based on the criteria defined
 
-### Key Features
-- **Flexible Architecture**: Easily adapt to different application requirements.
-- **Scalability**: Efficiently manage agent interactions in large systems.
-- **User-Friendly Interface**: Simplifies the development process for both novice and experienced programmers.
 
 ## Getting Started
 To get started with BAAgents:
@@ -26,12 +22,3 @@ To get started with BAAgents:
    ```bash
    npm start
    ```
-
-## Documentation
-For detailed documentation on how to use BAAgents, including API references, tutorials, and examples, please visit the [documentation site](#) (link to be added).
-
-## Contributing
-We welcome contributions to improve BAAgents! Please refer to our [CONTRIBUTING.md](#) (link to be added) for guidelines on how to get involved.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](#) (link to be added) file for details.
