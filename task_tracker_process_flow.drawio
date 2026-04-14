@@ -25,7 +25,7 @@
                 <mxCell id="8" value="View All Tasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="325" y="420" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Display Task List&#xa;with Title, Description,&#xa;Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor:#27ae60;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="9" value="Display Task List&#xa;with Title, Description,&#xa;Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor=#27ae60;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="310" y="540" width="160" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Mark Task&#xa;Completed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" vertex="1" parent="1">
@@ -34,16 +34,16 @@
                 <mxCell id="11" value="Select Task&#xa;from List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="605" y="540" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Update Status&#xa;to Completed&#xa;&amp; Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor:#27ae60;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="12" value="Update Status&#xa;to Completed&#xa;&amp; Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor=#27ae60;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="605" y="660" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Refresh Task List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor:#3498db;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="13" value="Refresh Task List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="310" y="800" width="130" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Continue Using?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="280" y="920" width="170" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Close Application" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor:#9673a6;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="15" value="Close Application" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="600" y="935" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" edge="1" parent="1" source="2" target="3">
@@ -93,6 +93,253 @@
                 </mxCell>
                 <mxCell id="31" value="No" edge="1" parent="1" source="14" target="15">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
+                </mxCell>
+                <mxCell id="3" value="Load Tasks from&#xa;Local Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor=#27ae60;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="120" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="User Selects Action" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="240" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Create New Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="420" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Input Title &amp;&#xa;Description" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="540" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Save Task&#xa;to Local Storage&#xa;(Status: New)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor:#27ae60;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="660" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="View All Tasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="420" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Display Task List&#xa;with Title, Description,&#xa;Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor:#27ae60;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="540" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Mark Task&#xa;Completed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="420" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Select Task&#xa;from List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="540" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Update Status&#xa;to Completed&#xa;&amp; Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a9dfbf;strokeColor:#27ae60;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="660" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Refresh Task List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor:#3498db;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="800" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Continue Using?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="920" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Close Application" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor:#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="935" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Create" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="View" parent="1" source="4" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Mark Done" parent="1" source="4" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" parent="1" source="7" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" parent="1" source="9" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" parent="1" source="13" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Yes" parent="1" source="14" target="4" edge="1">
+                    <mxGeometry y="-30" relative="1" y1="-30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="No" parent="1" source="14" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="us002_mark_complete" name="US-002 Mark a Task as Completed">
+        <mxGraphModel dx="299" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="20" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="User opens Task Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="110" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Tasks exist?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="215" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Show empty-state message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="230" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="330" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="User views task list" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="360" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="User clicks Mark as Complete&#xa;on a pending task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="465" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Update task status to Completed&#xa;in local storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="575" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Task visually differentiated&#xa;in task list" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="685" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="790" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" value="No" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" value="Yes" parent="1" source="4" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="us003_view_tasks" name="US-003 View All Tasks">
+        <mxGraphModel dx="299" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="20" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="User opens Task Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="110" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="App reads tasks from local storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="210" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Tasks found?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="315" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Display empty-state message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="330" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="430" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Render task list" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="460" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Each task shows title,&#xa;description, and status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="565" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Any completed tasks?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="680" width="190" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Apply visual differentiation&#xa;to completed tasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="695" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="All tasks shown as pending" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="695" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="820" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="No" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" value="Yes" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" value="Yes" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" value="No" parent="1" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="645" y="790"/>
+                            <mxPoint x="385" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e12" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="145" y="790"/>
+                            <mxPoint x="385" y="790"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
