@@ -1,0 +1,148 @@
+<mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Start -->
+    <mxCell id="f0" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;arcSize=50;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="475" y="30" width="100" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- Decision: User session active? -->
+    <mxCell id="f1" value="User session active?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="120" width="250" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- Enter/Select Username -->
+    <mxCell id="f2" value="Enter / Select Username" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="700" y="135" width="170" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- View Task List -->
+    <mxCell id="f3" value="View Task List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="260" width="200" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Click Add Task -->
+    <mxCell id="f4" value="Click &quot;Add Task&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="370" width="200" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Fill Form -->
+    <mxCell id="f5" value="Fill Form&#xa;(Title*, Description*, Priority)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="480" width="200" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- Click Submit -->
+    <mxCell id="f6" value="Click Submit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="600" width="200" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Decision: All required fields filled? -->
+    <mxCell id="f7" value="All required fields filled?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="375" y="700" width="300" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- Show validation errors -->
+    <mxCell id="f8" value="Show Validation Errors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="730" y="720" width="170" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Save to localStorage -->
+    <mxCell id="f9" value="Save Task to Local Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="850" width="200" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Task appears in list -->
+    <mxCell id="f10" value="Task Appears in List&#xa;(sorted by Priority, then Status)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="425" y="960" width="200" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- End -->
+    <mxCell id="f11" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;arcSize=50;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="475" y="1080" width="100" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- Edges -->
+    <!-- Start → User session? -->
+    <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f0" target="f1" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- User session? → No → Enter username -->
+    <mxCell id="e2" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f1" target="f2" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Enter username → View task list -->
+    <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" edge="1" source="f2" target="f3" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="785" y="260" />
+          <mxPoint x="785" y="285" />
+          <mxPoint x="625" y="285" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- User session? → Yes → View task list -->
+    <mxCell id="e4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f1" target="f3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- View task list → Click Add Task -->
+    <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f3" target="f4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Click Add Task → Fill Form -->
+    <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f4" target="f5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Fill Form → Submit -->
+    <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f5" target="f6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Submit → Validation -->
+    <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f6" target="f7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Validation → No → Show errors -->
+    <mxCell id="e9" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f7" target="f8" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Show errors → back to Fill Form -->
+    <mxCell id="e10" value="Fix &amp; retry" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" edge="1" source="f8" target="f5" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="815" y="510" />
+          <mxPoint x="625" y="510" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Validation → Yes → Save -->
+    <mxCell id="e11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f7" target="f9" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Save → Task in list -->
+    <mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f9" target="f10" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Task in list → End -->
+    <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="f10" target="f11" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Title -->
+    <mxCell id="title" value="Create Task Flow — Task Tracker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="1140" width="450" height="40" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

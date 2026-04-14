@@ -1,0 +1,15 @@
+Task Tracker Application Requirements
+
+Functional Requirements:
+- Users can create tasks
+- Users can mark tasks as completed
+- Users can view all tasks
+- Each task has:
+  - title
+  - description
+  - status
+
+Non-functional Requirements:
+- Simple UI
+- Local storage (no database required)
+- Should be lightweight

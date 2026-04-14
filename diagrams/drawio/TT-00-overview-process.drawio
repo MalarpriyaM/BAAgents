@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2026-04-14T10:00:00.000Z" agent="Mozilla/5.0" version="24.7.5">
+  <diagram id="tt-overview" name="Task Tracker Overview">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Create Task\n(Title + Description)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="145" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Save to Local Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="145" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="View All Tasks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="145" width="150" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Mark Completed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Update Status = Completed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="145" width="190" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="160" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7" value="Yes" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="7" target="8" style="endArrow=block;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
